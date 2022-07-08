@@ -1,0 +1,27 @@
+/* color palettes used 
+https://www.colourlovers.com/palette/1465585/Dont_Call_Me_Baby*/
+/* https://www.colourlovers.com/palette/1684068/SUNRISE_IN_TOKYO */
+
+.title {
+    color: #FF7C87;
+    font-size: 100px;
+    text-align: center;
+}
+
+/* help for styling the board came from here https://www.webtips.dev/tic-tac-toe-in-javascript */
+/* i had the grid template columns set up but was having difficulty getting it into the position i wanted it to be. totally forgot about position and transform lol. from my research this seems
+to be the simplest(?) way to make a grid without using a flexbox but also still touching on some concepts used in class */
+#game-board {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+    border: 1px solid #D4486F;
+    width: 200px;
+    height: 200px;
+}
