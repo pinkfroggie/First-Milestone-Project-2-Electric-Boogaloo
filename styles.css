@@ -6,6 +6,7 @@ https://www.colourlovers.com/palette/1465585/Dont_Call_Me_Baby*/
     color: #FF7C87;
     font-size: 100px;
     text-align: center;
+    font-family: ubuntu;
 }
 
 /* help for styling the board came from here https://www.webtips.dev/tic-tac-toe-in-javascript */
@@ -24,4 +25,14 @@ to be the simplest(?) way to make a grid without using a flexbox but also still 
     border: 1px solid #D4486F;
     width: 200px;
     height: 200px;
+}
+
+.new-game {
+    background-color: #FCA39D;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 20px;
+    font-family: ubuntu;
+    color: #473A4E;
 }
