@@ -2,11 +2,18 @@
 https://www.colourlovers.com/palette/1465585/Dont_Call_Me_Baby*/
 /* https://www.colourlovers.com/palette/1684068/SUNRISE_IN_TOKYO */
 
+.background {
+    background-color: #DACDBD;
+    height: 100vh;
+    padding-top: 1px;
+}
+
 .title {
     color: #FF7C87;
     font-size: 100px;
     text-align: center;
     font-family: ubuntu;
+    margin-top: 50px;
 }
 
 /* help for styling the board came from here https://www.webtips.dev/tic-tac-toe-in-javascript */
@@ -25,14 +32,40 @@ to be the simplest(?) way to make a grid without using a flexbox but also still 
     border: 1px solid #D4486F;
     width: 200px;
     height: 200px;
+    cursor: pointer;
+    font-family: ubuntu;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
 }
 
+.display{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 1200px;
+    font-family: ubuntu;
+}
+
+.playerX {
+    color: #FE6E6D;
+    font-size: 100px;
+}
+
+.playerO {
+    color: #EF97A3;
+    font-size: 100px;
+}
 .new-game {
     background-color: #FCA39D;
     border: none;
     border-radius: 12px;
     text-align: center;
-    font-size: 20px;
+    font-size: 35px;
     font-family: ubuntu;
     color: #473A4E;
+    margin-left: 870px;
+    margin-top: 150px;
+    position: absolute;
 }

@@ -7,35 +7,43 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">  
+    <script src="./script.js"></script> 
     <title>Document</title>
 </head>
 <body>
+    <main class="background"
     <section>
-        <h1 class="title">tic-tac-toe</h1> 
+        <h1 class="title">✨tic-tac-toe✨</h1> 
+        </section>
+        <section class="display">
+            💖Player <span class="display-player playerX">X</span>'s turn💖
+        </section>
             <!-- game board -->
             <!-- references https://www.webtips.dev/tic-tac-toe-in-javascript 
             https://www.codebrainer.com/blog/tic-tac-toe-javascript-game
             https://dev.to/bornasepic/pure-and-simple-tic-tac-toe-with-javascript-4pgn
+            https://www.youtube.com/watch?v=B3pmT7Cpi24&t=409s 
         -->
+    <section>
         <div id="game-board">
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
         </div>
 
-        <!-- button to restart the game -->
-        <h2 class="game-over"></h2>
+        <!-- button to restart the game/show game status -->
+        <section class="display announcer hide"></section>
+        <section class="controls">
         <button class="new-game">new game</button>
     </section>
  
-<!-- put js file at the bottom to make sure its loaded after the html!! -->
-<script src="script.js"></script>    
+
 </body>
 </html>
